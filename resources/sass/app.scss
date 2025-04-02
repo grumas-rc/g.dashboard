@@ -1,0 +1,86 @@
+@import 'bootstrap/scss/bootstrap';
+@font-face {
+    font-family: StyreneA;
+    src: url('../fonts/Styrene A-Regular-Web.ttf') format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: StyreneA;
+    src: url('../fonts/Styrene-A-Medium-Web.ttf') format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+body {
+    font-family: 'StyreneA', serif;
+}
+
+.logo-img {
+    max-width: 110px;
+}
+
+.card-info {
+    border-radius: 20px;
+}
+
+.card-info-title {
+    padding-bottom: 20px;
+    color: rgb(140 140 140);
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: -.44px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(164 162 162 / 10%);
+    border-radius: 8px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-height: 37px;
+}
+
+.badge-info {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    background-color: rgb(164 162 162 / 10%);
+    border-radius: 200px;
+    box-sizing: border-box;
+    border: 0 solid #e5e7eb;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: -.64px;
+}
+
+.bread {
+    margin: 20px 0;
+    font-family: monospace;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.bread ol {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.bread li {
+    color: #b5b5b5;
+    margin-right: 10px;
+}
+.bread li a{
+    color: #e3e3e3;
+}
